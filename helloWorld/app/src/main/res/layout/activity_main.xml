@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tview"
+        android:text="Hello World!"/>
+    <Button
+        android:layout_below="@id/tview"
+        android:id="@+id/btn"
+        android:layout_toRightOf="@id/tview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"/>
+    <Button
+        android:layout_below="@id/btn"
+        android:id="@+id/btn2"
+        android:layout_toRightOf="@id/tview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World2!"/>
+
+
+
+</RelativeLayout>
